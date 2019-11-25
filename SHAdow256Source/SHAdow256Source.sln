@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{CB501ECE-73D8-4578-A066-B01F208AE244}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{75DC131C-F44E-4CB8-A3F0-1CA8CCA4C1CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{6F8C57DA-5930-4F2E-AF01-E4537E41D647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gates", "Gates\Gates.csproj", "{D26F1F73-7997-4336-B2D9-4481B761EDD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{605F4C24-7C0A-43A1-B074-66B694F46E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicGatesExample", "BasicGatesExample\BasicGatesExample.csproj", "{337732B0-FADC-483A-8B88-69831EA65A1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D26F1F73-7997-4336-B2D9-4481B761EDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26F1F73-7997-4336-B2D9-4481B761EDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26F1F73-7997-4336-B2D9-4481B761EDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26F1F73-7997-4336-B2D9-4481B761EDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337732B0-FADC-483A-8B88-69831EA65A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337732B0-FADC-483A-8B88-69831EA65A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337732B0-FADC-483A-8B88-69831EA65A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337732B0-FADC-483A-8B88-69831EA65A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D26F1F73-7997-4336-B2D9-4481B761EDD8} = {CB501ECE-73D8-4578-A066-B01F208AE244}
+		{337732B0-FADC-483A-8B88-69831EA65A1B} = {6F8C57DA-5930-4F2E-AF01-E4537E41D647}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC0441DA-C41C-4FFB-BE39-4D2CCA1D19F4}
+	EndGlobalSection
+EndGlobal
